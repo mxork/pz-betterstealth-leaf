@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "package": "pz.mxork.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "mixins": [
+        "MixinCombatManager",
+        "MixinWorldSoundManager",
+        "MixinUpdateBucket",
+        "MixinGameCharacter",
+        "MixinIsoPlayer",
+        "MixinIsoZombie"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}

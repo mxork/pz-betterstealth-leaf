@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "betterstealth",
+    "version": "${version}",
+    "name": "Better Stealth",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "authors": [
+        "Me!"
+    ],
+    "contact": {
+        "sources": "https://github.com/aoqia194/leaf-example-mod"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/betterstealth/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "pz.mxork.Entry"
+        ]
+    },
+    "mixins": [
+        "betterstealth.mixins.json"
+    ],
+    "depends": {
+        "leafloader": ">=${loader_version}",
+        "zomboid": "~${zomboid_version}",
+        "java": "~25"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
